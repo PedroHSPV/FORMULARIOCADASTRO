@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-BR" ng-app="minhaApp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários AngularJS</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular-route.min.js"></script>
+    <script src="app.js"></script>
+</head>
+<body class="container mt-5 text-center" style="background-color: rgb(244, 244, 183);">
+    <h1>Dados de Cadastro</h1>
+    <nav class="mb-4">
+        <a class="btn btn-primary" href="#!/cadastroEndereço">Cadastrar Endereço</a>
+        <a class="btn btn-primary" href="#!/cadastroPagamento">Cadastrar Dados de Pagamento</a>
+    </nav>
+    
+    <div ng-view></div>
+</body>
+</html>
